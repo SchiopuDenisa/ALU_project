@@ -1,0 +1,98 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jan 20 10:15:55 2026
+| Host         : Patricia_Laptop running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_level_control_sets_placed.rpt
+| Design       : top_level
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    20 |
+|    Minimum number of control sets                        |    20 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    47 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    20 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    12 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               9 |            6 |
+| No           | No                    | Yes                    |              60 |           22 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             138 |           49 |
+| Yes          | No                    | Yes                    |             110 |           55 |
+| Yes          | Yes                   | No                     |             164 |           39 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------------------------+-------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |               Enable Signal              |        Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+------------------------------------------+-------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | U_DB_LOAD/x_new_i_1__1_n_0               |                               |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | U_DB_SCROLL/x_new_i_1__0_n_0             |                               |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | U_DB_START/x_new_i_1_n_0                 |                               |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | U_ALU/U_MUL/B0                           | U_ALU/U_MUL/N[4]_i_1_n_0      |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG | U_ALU/U_DIV/count0                       |                               |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG | U_DB_LOAD/x_old_reg_2[0]                 | btnU_IBUF                     |                4 |              6 |         1.50 |
+|  clk_IBUF_BUFG | U_DB_LOAD/led_OBUF[0]                    | btnU_IBUF                     |                8 |              8 |         1.00 |
+|  clk_IBUF_BUFG |                                          |                               |                6 |              9 |         1.50 |
+|  clk_IBUF_BUFG | U_ALU/U_DIV/Q_reg0                       | U_ALU/U_DIV/A_reg[30]_i_1_n_0 |                5 |             31 |         6.20 |
+|  clk_IBUF_BUFG | U_ALU/U_MUL/FSM_onehot_state_reg_n_0_[2] | btnU_IBUF                     |                6 |             32 |         5.33 |
+|  clk_IBUF_BUFG | U_ALU/U_MUL/A0                           | U_ALU/U_MUL/A[31]_i_1_n_0     |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG | U_ALU/U_DIV/quotient[31]_i_1_n_0         | btnU_IBUF                     |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG | U_ALU/U_DIV/B_reg[31]_i_1_n_0            |                               |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG | U_ALU/U_DIV/Q_reg0                       |                               |               11 |             32 |         2.91 |
+|  clk_IBUF_BUFG | U_DB_LOAD/count                          | U_DB_LOAD/x_new_i_1__1_n_0    |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG | U_DB_LOAD/E[0]                           | btnU_IBUF                     |               29 |             32 |         1.10 |
+|  clk_IBUF_BUFG | U_DB_SCROLL/count                        | U_DB_SCROLL/x_new_i_1__0_n_0  |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG | U_DB_START/count                         | U_DB_START/x_new_i_1_n_0      |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG |                                          | btnU_IBUF                     |               22 |             60 |         2.73 |
+|  clk_IBUF_BUFG | U_ALU/U_MUL/B0                           |                               |               24 |             65 |         2.71 |
++----------------+------------------------------------------+-------------------------------+------------------+----------------+--------------+
+
+

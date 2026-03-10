@@ -1,0 +1,19 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sim_1/new/tb_arithmetic_unit.vhd,1765241017,vhdl,,,,tb_arithmetic_unit,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sim_1/new/tb_divider.vhd,1765245503,vhdl,,,,tb_divider,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sim_1/new/tb_execution_unit.vhd,1765872955,vhdl,,,,tb_execution_unit,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sim_1/new/tb_logic_unit.vhd,1765242172,vhdl,,,,tb_logic_unit,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sim_1/new/tb_multiplier.vhd,1765245094,vhdl,,,,tb_multiplier,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sim_1/new/tb_shifter.vhd,1765242581,vhdl,,,,tb_shifter,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/adder_32bits.vhd,1765243866,vhdl,,,,adder_32bit,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/arithmetic_unit.vhd,1764235944,vhdl,,,,arithmetic_unit,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/control_unit.vhd,1765872752,vhdl,,,,control_unit,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/divider.vhd,1765873610,vhdl,,,,divider,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/execution_unit.vhd,1768834062,vhdl,,,,execution_unit,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/full_adder.vhd,1763440292,vhdl,,,,full_adder,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/logic_unit.vhd,1763439488,vhdl,,,,logic_unit,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/multiplier.vhd,1768834218,vhdl,,,,multiplier,,,,,,,,
+C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/shifter.vhd,1763437304,vhdl,,,,shifter,,,,,,,,

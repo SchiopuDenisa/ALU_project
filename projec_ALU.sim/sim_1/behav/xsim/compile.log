@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'divider'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/execution_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'execution_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sources_1/new/multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/patri/Vivado_projects/SCS/projec_ALU/projec_ALU.srcs/sim_1/new/tb_execution_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_execution_unit'
